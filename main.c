@@ -31,7 +31,7 @@ int main(void) {
   else
     printf("Your letter grade for CMPSC 131 is F.\n");
  
-  return 0;
+    return 0;
 }
 
   
