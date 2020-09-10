@@ -13,9 +13,9 @@ int main(void) {
   double grade = atof(gradestr);
   
   if (grade >= 93.0)
-    printf("Your letter grade for CMPSC 131 is A+.\n");
-  else if (grade >= 90.0)
     printf("Your letter grade for CMPSC 131 is A.\n");
+  else if (grade >= 90.0)
+    printf("Your letter grade for CMPSC 131 is A-.\n");
   else if (grade >= 87.0)
     printf("Your letter grade for CMPSC 131 is B+.\n");
   else if (grade >= 83.0)
